@@ -73,28 +73,5 @@ import matplotlib.pyplot as plt
 x,y=np.meshgrid(np.linspace(0,719,10),np.linspace(0,1279,20))
 fig, ax = plt.subplots()
 ax.imshow(im)
-#plt.hold
 ax.quiver(y,x,u/np.max(u),v/np.max(v),color='red',scale=10)
 plt.show()
-#draw = ImageDraw.Draw(im)
-#
-#mag=np.square(u) + np.square(v)
-#mag=np.sqrt(mag)
-
-
-
-
-
-##X,Y=np.meshgrid(size[1],size[0])
-#plt.imshow((im))
-#k=0
-#a=np.zeros((1280*716,2))
-#for i in range(0,200):
-#    for j in range(0,200):
-#        if(u[i][j]!=0):
-#            plt.scatter(i,j,c='red',marker='x')
-#            print(i)
-#    
-#plt.stem(a)
-#plt.quiver(u,v,edgecolor='k')
-#plt.show()       
