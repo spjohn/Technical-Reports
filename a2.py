@@ -4,6 +4,7 @@ Created on Wed Jan 24 15:54:48 2018
 
 @author: VRIPLAB4
 """
+# Code to find the affine transformation between two images taken from the same camera 
 from PIL import Image
 import numpy as np
 from skimage.transform import AffineTransform
