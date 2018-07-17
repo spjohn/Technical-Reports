@@ -1,2 +1,2 @@
 # Technical-Reports
-This contains the lab report of RTDSP Lab. There were several signal processing -(speech , image and video inputs) done on TMS320C6713 DSK and the codes were written in C as well as assembly programming.
+This contains presentations on Hough Transform and Object Classification using a combination of EEG signals and Pyramid Match Kernels. 
